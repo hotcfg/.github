@@ -35,13 +35,13 @@
 - **Schema-checked pushes.** Errors point at the line and the rule, so a typo never ships.
 - **Environments.** Development, staging and production, with promote between them, to everyone or to a share of readers first.
 - **History and rollback.** Every version is kept with who pushed it; diff any two and roll back in one click.
-- **Typed config.** Generate TypeScript, Swift, Kotlin, Java, Python, PHP, Ruby, Go or GDScript types from a bin's schema.
+- **Typed config.** Generate TypeScript, Swift, Kotlin, Java, Python, PHP, Ruby, Go, GDScript or C# types from a bin's schema.
 
 ## Repositories
 
 | Repository | What it is |
 | --- | --- |
-| [**cli**](https://github.com/hotcfg/cli) | The `hotcfg` command-line tool: push, validate, diff, promote, roll back and generate types. |
+| [**cli**](https://github.com/hotcfg/cli) | The `hotcfg` command-line tool: push, validate, diff, promote (now or on a schedule), roll back and generate types. |
 | [**action**](https://github.com/hotcfg/action) | GitHub Action that checks config on every pull request and pushes it on merge. |
 | [**homebrew-tap**](https://github.com/hotcfg/homebrew-tap) | Homebrew cask for the CLI. |
 | [**status**](https://github.com/hotcfg/status) | Uptime monitoring and incident history, live at [status.hotcfg.run](https://status.hotcfg.run). |
